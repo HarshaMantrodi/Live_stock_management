@@ -1,6 +1,6 @@
 import mysql.connector
 
-conn=mysql.connector.connect(host='localhost',user='root',password='Jalagara@6106',database='live_stock_management')
+conn=mysql.connector.connect(host='localhost',user='root',password='####',database='live_stock_management')
 my_cursor=conn.cursor()
 conn.commit()
 conn.close()
